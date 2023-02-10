@@ -108,3 +108,69 @@ h3{
    
     
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Lato&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Lato&family=Raleway:wght@500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body{font-family: 'Lato', sans-serif; }
+
+/* Generale (picto + typo) */
+section { font-family: 'Lato'; }
+
+.title2 { color: #337A5B; }
+
+img {
+    width : 100px;
+    height : 100px;
+}
+
+h1 {font-family: Lato; 
+    color: #285A43;
+    font-size: 35px;
+}
+
+h2 { font-family: Lato; 
+    color: white;
+}
+
+.indoor h2 {
+    color: #285A43;
+}
+
+p { font-family: Raleway; }
+
+.blochelp p {
+    margin-top: 2rem;
+}
+
+.outdoor p {
+    color: white;
+}
+
+/* Premier texte */
+
+.blochelp {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 3 boxs */
+.bloc {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.indoor {
+    background-color: white;
+    box-shadow: 5px 5px 10px 1px rgb(222,222,222);
+    border-radius: 15px;
+    padding: 3rem;
+}
+    
+
+.outdoor {
+    background-color: #337A5B;
+    border-radius: 15px;
+    padding: 3rem;
+}
