@@ -50,7 +50,10 @@ nav{
 .white{
     display: flex;
 }
-
+/*hero
+.hero{
+    background-image: url("Image/image\ 1.png");
+}*/
 /*Nav*/
 
 .logo{
@@ -64,21 +67,44 @@ nav{
 }
 .topnav{
     display: flex;
-    width: 70vw;
+    width: 75vw;
     justify-content: right;
 }
+
 .call {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
     
 }
 .navi{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 h3{
     margin: 0;
+    
+}
+/*title*/
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.button {
+    justify-content: center;
+}
+.numb{
+    display: flex;
+    align-items: center;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+   
     
 }
