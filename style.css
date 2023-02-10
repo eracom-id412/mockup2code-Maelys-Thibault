@@ -1,0 +1,84 @@
+*{
+    outline: 1px solid blue;
+    outline-offset: -0.5rem;
+    padding: 1rem;
+    color: white;
+    background-color: green;
+}*
+/*base*/
+*{ 
+    box-sizing: border-box;
+}
+img {width: 100%; display: block;}
+*{
+    padding: 0.5rem;  
+}
+/*Typo*/
+body{
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+}
+/*mise en page*/
+body{
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+} 
+nav{
+    flex: 1 1 100%;
+}
+main{
+    flex: 1 1 60%;
+}
+footer{
+    flex: 1 1 100%;}
+
+nav{
+    display: flex;
+}
+.topnav{
+    display: flex;
+    
+}
+.home{
+    display: flex;
+}
+.button{
+    display: flex;
+}
+.white{
+    display: flex;
+}
+
+/*Nav*/
+
+.logo{
+    display: flex;
+    width: 20vw;   
+    justify-content: center;
+}
+.logo img{
+    width: 35%;
+    
+}
+.topnav{
+    display: flex;
+    width: 70vw;
+    justify-content: right;
+}
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    margin: 0;
+    
+}
