@@ -103,6 +103,9 @@ h3{
     font-size: 16px;
     
 }
+.one{
+    text-decoration: underline
+}
 /*title*/
 .home{
     display: flex;
@@ -178,6 +181,7 @@ h3{
 .page p{
     margin: 0; 
     font-size: 18px;
+    font-weight: 600;
 }
 .number {
     padding-bottom: 0;
@@ -185,8 +189,8 @@ h3{
 }
 .un{
     margin-top: 100px ; 
-    color: #285A43
-    
+    color: #285A43;
+    text-decoration: underline
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Lato&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
