@@ -264,4 +264,5 @@ p { font-family: Raleway; }
     background-color: #337A5B;
     border-radius: 15px;
     padding: 3rem;
+    box-shadow: 5px 5px 10px 1px rgb(222,222,222);
 }
