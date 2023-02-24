@@ -183,7 +183,6 @@ h3{
 }
 .page {
     display: flex;
-<<<<<<< Updated upstream
     flex-direction: column;  
 }
 .page p{
