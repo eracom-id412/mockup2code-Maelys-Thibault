@@ -286,6 +286,9 @@ p { font-family: Raleway; }
     padding: 0;
     margin: 0;
 }
+/* About Us */
+
+
 
 /* Footer */
 
@@ -308,9 +311,9 @@ p { font-family: Raleway; }
 .logosfooter {
     display: flex;
     justify-content:space-evenly;
-    max-width: 50rem;
+    max-width: 30rem;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: -1rem;
 }
 
 .footertextpicto h1{
@@ -325,7 +328,7 @@ p { font-family: Raleway; }
 .littletextefooter{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .pictosfooter{
@@ -345,7 +348,7 @@ p { font-family: Raleway; }
     background-color: black;
     height: 5vh;
     justify-content: center;
-    margin-top: -7vh;
+    margin-top: -15vh;
     align-items: center;
     display: flex;
 }
