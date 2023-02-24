@@ -267,6 +267,71 @@ p { font-family: Raleway; }
     padding: 3rem;
     box-shadow: 5px 5px 10px 1px rgb(222,222,222);
 }
-=======
-    flex-direction: column;
->>>>>>> Stashed changes
+
+/* Footer */
+
+.footer {
+    background-color: #285A43;
+
+    margin: auto;
+    margin-top: 10rem;
+}
+
+.footertextpicto{
+    margin-top: -10rem;
+}
+
+.titlefooter {
+    display: flex;
+    justify-content: center;
+}
+
+.logosfooter {
+    display: flex;
+    justify-content:space-evenly;
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.footertextpicto h1{
+    color: white;
+}
+
+.littletextefooter h1{
+    color: white;
+    font-size: 20px;
+}
+
+.littletextefooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.pictosfooter{
+    display: flex;
+    justify-content:space-between;
+    margin-top: -10rem;
+}
+
+.pictosfooter img{
+    width: 30%;
+    height: 30%;
+
+    display: flex;
+}
+
+.copyright{
+    background-color: black;
+    height: 5vh;
+    justify-content: center;
+    margin-top: -7vh;
+    align-items: center;
+    display: flex;
+}
+
+.copyright h2{
+    color: white;
+    font-size: 15px;
+}
