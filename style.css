@@ -333,6 +333,7 @@ p { font-family: Raleway; }
 }
 .footertextpicto{
     padding-bottom: 0;
+    margin-top: 45px;
 }
 .titlefooter {
     display: flex;
