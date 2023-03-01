@@ -123,7 +123,7 @@ h3{
 }
 .home h1{
     color: white;
-    font-size: 56px;
+    font-size: 68px;
     margin-bottom: 0;
     margin-top: 30px;
 }
@@ -135,7 +135,7 @@ h3{
     
 }
 .subtitle p{
-    font-size: 16px;
+    font-size: 20px;
     padding: 0;
     margin-top: 0;
 }
@@ -179,7 +179,7 @@ h3{
 .numb{
     display: flex;
     align-items: center;
-    margin-left: 7vw;
+    margin-left: 9vw;
     
     
 }
@@ -325,55 +325,70 @@ p { font-family: Raleway; }
 .footer {
     background-color: #285A43;
     width: 97.65vw;
-    margin-top: 10rem;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
-
 .footertextpicto{
-    margin-top: -10rem;
+    padding-bottom: 0;
 }
-
 .titlefooter {
     display: flex;
     justify-content: center;
 }
-
+.titlefooter h1{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
 .logosfooter {
     display: flex;
-    justify-content:space-evenly;
-    max-width: 30rem;
-    margin: auto;
+    justify-content:center;
     margin-top: -1rem;
+    gap: 3rem;
+    
 }
-
-.footertextpicto h1{
-    color: white;
+.logosfooter img{
+    width: 5%;
+    
 }
 
 .littletextefooter h1{
     color: white;
-    font-size: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    
 }
 
 .littletextefooter{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 2rem;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 5px;
+    padding-top: 0;
 }
 
 .pictosfooter{
     display: flex;
     justify-content:space-between;
-    margin-top: -10rem;
+    margin-top: -12rem;
+    position: relative;
+    translate: 0px -20px;
 }
 
 .pictosfooter img{
     width: 30%;
     height: 30%;
-
     display: flex;
 }
-
+.Monstera{
+    translate: 0px -35px;
+}
+.Fern{
+    translate: 20px
+}
 .copyright{
     background-color: black;
     height: 5vh;
@@ -381,9 +396,11 @@ p { font-family: Raleway; }
     margin-top: -15vh;
     align-items: center;
     display: flex;
+    z-index: 333;
 }
 
 .copyright h2{
-    color: white;
-    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
 }
