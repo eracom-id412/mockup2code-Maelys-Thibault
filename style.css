@@ -274,7 +274,7 @@ p { font-family: Raleway; }
 /*Gallery*/
 .title_gallery {
  text-align: center;
- margin-top: 40px;
+ margin-top: 9rem;
 }
 .title_gallery h3{
     font-size: 28px;
@@ -285,7 +285,7 @@ p { font-family: Raleway; }
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 
-    margin-top: 10rem;
+    margin-top: 3rem;
     gap: 0.5rem;
     
     
