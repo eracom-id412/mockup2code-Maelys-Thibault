@@ -273,6 +273,8 @@ p { font-family: Raleway; }
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    margin-top: 10rem;
 }
 .gallery img{
     width: 30vw;
@@ -286,7 +288,60 @@ p { font-family: Raleway; }
     padding: 0;
     margin: 0;
 }
+
 /* About Us */
+
+
+.titleaboutus{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.boxsauboutus{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+}
+
+.boxA {
+    margin-top: 1rem;
+
+    background-color: #F8F8F8;
+    border-radius: 15px;
+
+    display: inline-block;
+    justify-content: center;
+    height: 25rem;
+    width: 25rem;
+}
+
+.boxA p{
+    font-family: 'Lato', sans-serif;
+    color: #121212;
+    line-height: 150%;
+}
+
+.pictoA {
+    display: flex;
+    justify-content: right;
+    margin-top: -11rem;
+}
+
+.pictoA img{
+    display: flex;
+    justify-content: flex;
+    width: 200px;
+    margin-top: 5rem;
+}
+
+.portraitaboutus img{
+    width : 90px;
+}
+
+.portraitaboutus{
+    display: flex;
+}
+
 
 
 
@@ -314,6 +369,7 @@ p { font-family: Raleway; }
     max-width: 30rem;
     margin: auto;
     margin-top: -1rem;
+    gap: 5rem;
 }
 
 .footertextpicto h1{
