@@ -328,9 +328,10 @@ p { font-family: Raleway; }
     margin-top: 5rem;
 }
 
-.boxsauboutus{
+.boxsaboutus{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
     gap: 6rem;
 }
 
@@ -340,10 +341,27 @@ p { font-family: Raleway; }
     background-color: #F8F8F8;
     border-radius: 15px;
 
-    display: inline-block;
     justify-content: center;
-    height: 25rem;
-    width: 25rem;
+    min-height: 20rem;
+    width: 20rem;
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: right bottom;
+    background-size: 200px;
+}
+
+.boxA:nth-of-type(1) {
+    background-image: url("image_aboutus/Zz_Plant 1.svg");
+}
+
+.boxA:nth-of-type(2) {
+    background-image: url("image_aboutus/Snake_Plant 1.svg");
+}
+
+.boxA:nth-of-type(3) {
+    background-image: url("image_aboutus/Bamboo 258.svg");
 }
 
 .boxA p{
@@ -352,21 +370,12 @@ p { font-family: Raleway; }
     line-height: 150%;
 }
 
-.pictoA {
-    display: flex;
-    justify-content: right;
-    margin-top: -11rem;
-}
-
-.pictoA img{
-    display: flex;
-    justify-content: flex;
-    width: 200px;
-    margin-top: 5rem;
+.boxA h1{
+    font-size: 25px;
 }
 
 .portraitaboutus img{
-    width : 90px;
+    width : 80px;
 }
 
 .portraitaboutus{
@@ -381,7 +390,7 @@ p { font-family: Raleway; }
 .footer {
     background-color: #285A43;
     width: 97.65vw;
-    margin-top: 40px;
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
