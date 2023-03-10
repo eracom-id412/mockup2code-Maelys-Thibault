@@ -435,10 +435,12 @@ p { font-family: Raleway; }
     margin-top: -1rem;
     gap: 5rem;
     gap: 3rem;
+    z-index: 400;
     
 }
 .logosfooter img{
     width: 5%;
+   
     
 }
 
@@ -455,6 +457,7 @@ p { font-family: Raleway; }
     gap: 2.5rem;
     margin-bottom: 5px;
     padding-top: 0;
+    z-index: 444;
 }
 
 .pictosfooter{
