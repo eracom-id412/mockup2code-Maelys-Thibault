@@ -55,6 +55,9 @@ nav{
 .white{
     display: flex;
 }
+a {
+    text-decoration: none;
+}
 section {
     padding: 0;
     width: 98.9vw;
@@ -203,12 +206,13 @@ h3{
     font-size: 18px;
     font-weight: 600;
     color: white;
+    
 }
 .number {
     padding-bottom: 0;
     padding-top: 0;
 }
-.un{
+.un p{
     margin-top: 100px ; 
     color: #285A43;
     text-decoration: underline
