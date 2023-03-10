@@ -235,6 +235,7 @@ p { font-family: Raleway; }
 
 .blochelp p {
     margin-top: 2rem;
+    color: #121212;
 }
 
 .outdoor p {
@@ -263,12 +264,15 @@ p { font-family: Raleway; }
     padding: 3rem;
 }
     
-
 .outdoor {
     background-color: #337A5B;
     border-radius: 15px;
     padding: 3rem;
     box-shadow: 5px 5px 10px 1px rgb(222,222,222);
+}
+
+.indoor p{
+    color: #121212;
 }
 
 /*Gallery*/
@@ -460,7 +464,7 @@ p { font-family: Raleway; }
     background-color: black;
     height: 5vh;
     justify-content: center;
-    margin-top: -15vh;
+    margin-top: -9.5vh;
     align-items: center;
     display: flex;
     z-index: 333;
